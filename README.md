@@ -38,4 +38,4 @@ npm run dev ou yarn dev
 - [NextJS](https://nextjs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [TypeScript](https://github.com/microsoft/TypeScript)
-- [Licide](https://lucide.dev/)
+- [Lucide](https://lucide.dev/)
