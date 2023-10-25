@@ -19,19 +19,34 @@
 
 > Clone o Repositório:
 
-```bash
 Node version 18.16.0
+
+Clone
+```bash
 git clone https://github.com/JonatanPaes/tailwind-next.git
+```
+Navegue até o diretório do projeto
+```bash
 cd tailwind-next
-npm install ou yarn install
+```
+Instale as dependências do projeto
+```bash
+npm install
+```
+ou
+```bash
+yarn install
 ```
 
 # Web
 Para executar o projeto
 
 ```sh
-# comando para executar
-npm run dev ou yarn dev
+npm run dev
+```
+ou
+```sh
+yarn dev
 ```
 
 # Tecnologias
