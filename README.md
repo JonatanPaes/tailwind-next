@@ -55,3 +55,4 @@ yarn dev
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [Lucide](https://lucide.dev/)
 - [Radix](https://www.radix-ui.com/)
+- [Framer Motion](https://www.framer.com/motion/)
