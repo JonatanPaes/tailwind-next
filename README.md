@@ -56,3 +56,4 @@ yarn dev
 - [Lucide](https://lucide.dev/)
 - [Radix](https://www.radix-ui.com/)
 - [Framer Motion](https://www.framer.com/motion/)
+- [AutoAnimate](https://auto-animate.formkit.com/)
