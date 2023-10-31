@@ -57,3 +57,4 @@ yarn dev
 - [Radix](https://www.radix-ui.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [AutoAnimate](https://auto-animate.formkit.com/)
+- [Tailwind Variants](https://www.tailwind-variants.org/)
