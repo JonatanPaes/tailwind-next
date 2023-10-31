@@ -53,7 +53,7 @@ export default function Home() {
               </InputRoot>
 
               <InputRoot>
-                <InputControl defaultValue="Fernandes" />
+                <InputControl defaultValue="Paes" />
               </InputRoot>
             </div>
           </div>
