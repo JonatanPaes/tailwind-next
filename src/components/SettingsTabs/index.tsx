@@ -6,62 +6,62 @@ import { TabItem } from './TabItem'
 import { useState } from 'react'
 
 export function SettingsTabs() {
-  const [currentTab, setCurrentTab] = useState('my-details')
+  const [currentTab, setCurrentTab] = useState('tab1')
 
   return (
     <Tabs.Root value={currentTab} onValueChange={setCurrentTab}>
       <ScrollArea.Root className="w-full" type="scroll">
         <ScrollArea.Viewport className="w-full overflow-x-scroll">
-          <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200">
+          <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200 dark:border-zinc-700">
             <TabItem
-              value="my-details"
+              value="tab1"
               title="My details"
-              isSelected={currentTab === 'my-details'}
+              isSelected={currentTab === 'tab1'}
             />
             <TabItem
-              value="profile"
+              value="tab2"
               title="Profile"
-              isSelected={currentTab === 'profile'}
+              isSelected={currentTab === 'tab2'}
             />
             <TabItem
-              value="password"
+              value="tab3"
               title="Password"
-              isSelected={currentTab === 'password'}
+              isSelected={currentTab === 'tab3'}
             />
             <TabItem
-              value="team"
+              value="tab4"
               title="Team"
-              isSelected={currentTab === 'team'}
+              isSelected={currentTab === 'tab4'}
             />
             <TabItem
-              value="plan"
+              value="tab5"
               title="Plan"
-              isSelected={currentTab === 'plan'}
+              isSelected={currentTab === 'tab5'}
             />
             <TabItem
-              value="billing"
+              value="tab6"
               title="Billing"
-              isSelected={currentTab === 'billing'}
+              isSelected={currentTab === 'tab6'}
             />
             <TabItem
-              value="email"
+              value="tab7"
               title="Email"
-              isSelected={currentTab === 'email'}
+              isSelected={currentTab === 'tab7'}
             />
             <TabItem
-              value="notifications"
+              value="tab8"
               title="Notifications"
-              isSelected={currentTab === 'notifications'}
+              isSelected={currentTab === 'tab8'}
             />
             <TabItem
-              value="integration"
+              value="tab9"
               title="Integrations"
-              isSelected={currentTab === 'integration'}
+              isSelected={currentTab === 'tab9'}
             />
             <TabItem
-              value="api"
+              value="tab10"
               title="API"
-              isSelected={currentTab === 'api'}
+              isSelected={currentTab === 'tab10'}
             />
           </Tabs.List>
         </ScrollArea.Viewport>
