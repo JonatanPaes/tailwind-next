@@ -41,6 +41,12 @@ yarn install
 # Web
 Para executar o projeto
 
+<p align="center">
+  <img alt="Demonstration web" src="./preview/web.jpg" width="70%" height="70%" />
+  <img alt="Demonstration mobile" src="./preview/responsive.jpg" width="20%" height="30%" />
+</p>
+
+
 ```sh
 npm run dev
 ```
